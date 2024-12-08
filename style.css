@@ -54,6 +54,8 @@
     hsl(35, 100%, 68%)
   );
 
+  
+
   /* solid */
 
   --jet: hsl(0, 0%, 22%);
@@ -871,12 +873,24 @@ main {
 }
 
 .card-content span {
-  background: #2c2c3d;
-  border-radius: 5px;
+  background: #000000;
+ 
   padding: 0.5rem 1rem;
   color: #ffffff;
   font-size: 0.9rem;
+  
+}
+/* CSS */
+.tech-logo {
+  display: flex;
+  align-items: center; /* Centers the logo and text vertically */
   border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.tech-logo .logo {
+  margin-right: -1px; /* Optional: adds spacing between the logo and the text */
 }
 
 /* Media query to ensure 2 cards per row on wider screens */
